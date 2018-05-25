@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./Swiper-3.4.2/dist/css/swiper.min.css">
+    <style>
+        .swiper-container{
+            width: 600px;
+            height: 400px;
+            /*border: 1px solid red;*/
+            margin: 150px auto;
+            text-align:center;
+            line-height: 400px;
+            z-index: 999;
+        }
+        .swiper-slide{
+            background-size: 100% 100%;
+            color: darkseagreen;
+        }
+        .back1{
+            background-image: url("IMG/WechatIMG1.jpeg");
+            /*background-size: 100% 100%;*/
+        }
+        .back2{
+            background-image: url("IMG/WechatIMG2.jpeg");
+            /*background-size: 100% 100%;*/
+        }
+        .back3{
+            background-image: url("IMG/WechatIMG3.jpeg");
+            /*background-size: 100% 100%;*/
+        }
+        .back4{
+            background-image: url("IMG/WechatIMG4.jpeg");
+        }
+        .back5{
+            background-image: url("IMG/WechatIMG5.jpeg");
+        }
+        .back6{
+            background-image: url("IMG/WechatIMG6.jpeg");
+        }
+        .back7{
+              background-image: url("IMG/WechatIMG7.jpeg");
+          }
+        .back8{
+                background-image: url("IMG/WechatIMG8.jpeg");
+            }
+        .back9{
+            background-image: url("IMG/WechatIMG9.jpeg");
+        }
+        .back10{
+            background-image: url("IMG/WechatIMG10.jpeg");
+        }
+        .back11{
+            background-image: url("IMG/WechatIMG11.jpeg");
+        }
+        .back12{
+            background-image: url("IMG/WechatIMG12.jpeg");
+        }
+        body{
+            background-image: url("IMG/timg.jpeg");
+            background-size: 100% 900px;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide back1">
+                <p>人的一生有四个季节，而我希望你每个季节都快乐</p>
+            </div>
+            <div class="swiper-slide back2">
+                <p>首先是冬季，虽然很冷，但是有我在</p>
+            </div>
+            <div class="swiper-slide back3">
+                <p>其次是夏季，虽然很热，但是有我给你买冰棍</p>
+            </div>
+            <div class="swiper-slide back4">
+                <p>然后是春季，不冷也不热，我们可以看一看那映入眼帘的春色</p>
+            </div>
+            <div class="swiper-slide back5">
+                <p>最后是秋季，收获的季节，我希望我们的爱情会有一个饱满的果实</p>
+            </div>
+            <div class="swiper-slide back6">
+
+            </div>
+            <div class="swiper-slide back7">
+
+            </div>
+            <div class="swiper-slide back8">
+
+            </div>
+            <div class="swiper-slide back9">
+
+            </div>
+            <div class="swiper-slide back10">
+
+            </div>
+            <div class="swiper-slide back11">
+
+            </div>
+            <div class="swiper-slide back12">
+
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <audio src="music/杨宗纬、叶蓓%20-%20我们好像在哪见过.mp3"autoplay='autoplay'; controls="controls"></audio>
+    <script src="Swiper-3.4.2/dist/js/swiper.min.js"></script>
+    <script>
+        var myswiper = new Swiper('.swiper-container',{
+            loop:true,
+            pagination:{
+                el:'swiper-pagination'
+            },
+            autoplay: 3500,
+        })
+    </script>
+</body>
+</html>
